@@ -25,4 +25,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=CatalystX-AuthenCookie
   repository: http://hg.urth.org/hg/CatalystX-AuthenCookie
-version: 0.01
+version: 0.02

@@ -20,7 +20,7 @@ sub long_login : Global {
 
     $c->set_authen_cookie(
         value   => { user_id => 42 },
-        expires => '03-Mar-2099 00:00:00 GMT',
+        expires => '03-Mar-2020 00:00:00 GMT',
     );
 
     return;

@@ -65,8 +65,8 @@ use HTTP::Date qw( str2time time2str );
     my $cookie  = $cookies{'authen-cookie'};
 
     is(
-        $cookie->{expires}, 'Tue, 03 Mar 2099 00:00:00 GMT',
-        'cookie has explicit expiration in 2099'
+        $cookie->{expires}, 'Tue, 03 Mar 2020 00:00:00 GMT',
+        'cookie has explicit expiration in 2020'
     );
 }
 

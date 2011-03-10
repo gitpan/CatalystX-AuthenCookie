@@ -1,6 +1,6 @@
 package CatalystX::AuthenCookie;
 BEGIN {
-  $CatalystX::AuthenCookie::VERSION = '0.01';
+  $CatalystX::AuthenCookie::VERSION = '0.02';
 }
 
 use Moose::Role;
@@ -139,7 +139,7 @@ CatalystX::AuthenCookie - Plugin for cookie-based authentication
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
